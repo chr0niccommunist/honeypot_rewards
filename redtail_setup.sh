@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# THIS IS MALWARE FROM A HONEYPOT DO NOT RUN THIS
 get_random_string() {
   len=$(expr $(od -An -N2 -i /dev/urandom 2>/dev/null | tr -d ' ') % 32 + 4 2>/dev/null)
 
